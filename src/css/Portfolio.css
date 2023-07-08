@@ -1,0 +1,26 @@
+.portfolio-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portfolio-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-card .card-title {
+  margin-bottom: 10px;
+}
+
+.portfolio-card .btn {
+  width: 100%;
+  margin-top: 10px;
+}
