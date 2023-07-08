@@ -9,19 +9,20 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./style/App.css";
 
 function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-      </Switch>
+      <div className="container mt-5">
+        <Routes>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/resume" component={Resume} />
+        </Routes>
+      </div>
       <Footer />
     </Router>
   );
