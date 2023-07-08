@@ -1,0 +1,23 @@
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px;
+}
