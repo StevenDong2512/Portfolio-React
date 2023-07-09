@@ -9,7 +9,7 @@ My portfolio contains pages including home, about, contact, portfolio and resume
 
 ## Installation
 
-http://192.168.0.89:3000/Portfolio-React
+https://stevendong2512.github.io/resume
 
 ### React
 ### Manifest
