@@ -19,16 +19,19 @@ http://192.168.0.89:3000/Portfolio-React
 ## Usage
 
 Home page view
-![online](./public/screenshots/Home.png)
+![home](./public/screenshots/Home.png)
 
-Users install the app to use offline. 
-![offline](./screenshots/offline.png)
+About page view
+![about](./public/screenshots/About.png)
 
-Mainfest from the dev tool on chrome.
-![mainfest](./screenshots/mainfest.png)
+Contact page view
+![contact](./public/screenshots/Contact.png)
 
-Service Worker from the dev tool on chrome.
-![sw](./screenshots/sw.png)
+Portfolio page view
+![portfolio](./public/screenshots/Portfolio.png)
+
+Resume page view
+![resume](./public/screenshots/Resume.png)
 
 
 ## Credits
