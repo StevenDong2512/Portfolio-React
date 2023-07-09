@@ -32,6 +32,7 @@ function Contact() {
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            required
           />
         </div>
         <div>
@@ -41,6 +42,7 @@ function Contact() {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
         <div>
@@ -49,9 +51,12 @@ function Contact() {
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            required
           ></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
       </form>
     </section>
   );

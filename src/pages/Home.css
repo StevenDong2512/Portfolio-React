@@ -1,0 +1,35 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.my-image {
+  width: 200px;
+  height: 225px;
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  filter: brightness(60%);
+  transition: all 0.3s ease-in-out;
+}
+
+.my-image:hover {
+  transform: scale(1.1);
+  filter: none;
+}
+
+.content-container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}

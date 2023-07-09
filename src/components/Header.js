@@ -5,7 +5,7 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <h1>Developer Name</h1>
+      <h1>Steven Dong</h1>
       <nav>
         <ul>
           <li>

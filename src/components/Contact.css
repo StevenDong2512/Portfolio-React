@@ -3,6 +3,9 @@
   margin-bottom: 10px;
 }
 
+form {
+}
+
 form div {
   margin-bottom: 10px;
 }
@@ -16,8 +19,28 @@ form textarea {
   width: 100%;
   padding: 5px;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 form button {
   padding: 10px;
+}
+
+.submit-button {
+  text-align: center;
+  width: 20%;
+  border-radius: 10px;
+  background-color: #83bbcc;
+  border-color: #83bbcc;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.submit-button:hover {
+  background-color: #007bff;
+  border-color: #007bff;
 }

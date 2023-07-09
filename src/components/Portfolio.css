@@ -1,9 +1,14 @@
 .portfolio-section {
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .portfolio-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -21,6 +26,32 @@
 }
 
 .portfolio-card .btn {
-  width: 100%;
+  width: 80%;
   margin-top: 10px;
+  margin-left: 10px;
+}
+
+.portfolio-card .btn-primary {
+  background-color: #83bbcc;
+  border-color: #83bbcc; /* Change the background color */
+}
+
+.portfolio-card .btn-secondary {
+  background-color: #3c4042;
+  border-color: #3c4042; /* Change the background color */
+}
+
+.portfolio-card .btn-primary:hover,
+.portfolio-card .btn-secondary:hover {
+  background-color: #007bff;
+  border-color: #007bff; /* Change the hover background color */
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-buttons a {
+  margin: 0 5px;
 }

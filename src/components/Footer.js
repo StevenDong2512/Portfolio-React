@@ -12,21 +12,22 @@ function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="https://github.com/">
+          <a href="https://github.com/StevenDong2512">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/">
+          <a href="https://www.linkedin.com/in/steven-dong/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
         <li>
-          <a href="https://instagram.com/">
+          <a href="https://www.instagram.com/stevend_ong/">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
       </ul>
+      <h7>Copyright © Steven Dong</h7>
     </footer>
   );
 }

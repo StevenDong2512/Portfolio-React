@@ -1,25 +1,49 @@
 import React from "react";
 import "./Portfolio.css";
+import CityRImg from "../assets/CityR.png";
+import WeatherImg from "../assets/WeaterF.png";
+import PasswordImg from "../assets/PasswordG.png";
+import PortfolioImg from "../assets/Portfolio.png";
+import RepairImg from "../assets/RepairF.png";
+import QuizImg from "../assets/Quiz.png";
 
 function Portfolio() {
   const projects = [
     {
-      title: "Project 1",
-      image: "project1.jpg",
-      deployedLink: "https://example.com/project1",
-      githubLink: "https://github.com/example/project1",
+      title: "CityReviwr",
+      image: CityRImg,
+      deployedLink: "https://cityreviwr.herokuapp.com/",
+      githubLink: "https://github.com/StevenDong2512/Cityreviewr",
     },
     {
-      title: "Project 2",
-      image: "project2.jpg",
-      deployedLink: "https://example.com/project2",
-      githubLink: "https://github.com/example/project2",
+      title: "Weather Forecast",
+      image: WeatherImg,
+      deployedLink: "https://stevendong2512.github.io/weather/",
+      githubLink: "https://github.com/StevenDong2512/weather",
     },
     {
-      title: "Project 3",
-      image: "project3.jpg",
-      deployedLink: "https://example.com/project3",
-      githubLink: "https://github.com/example/project3",
+      title: "Password Generator",
+      image: PasswordImg,
+      deployedLink: "https://stevendong2512.github.io/password-generator/",
+      githubLink: "https://github.com/StevenDong2512/password-generator",
+    },
+    {
+      title: "HTML Portfolio",
+      image: PortfolioImg,
+      deployedLink: "https://stevendong2512.github.io/SD-portfolio/",
+      githubLink: "https://github.com/StevenDong2512/SD-portfolio",
+    },
+    {
+      title: "Repair Finder",
+      image: RepairImg,
+      deployedLink: "https://stevendong2512.github.io/RepairFind/",
+      githubLink: "https://github.com/StevenDong2512/RepairFind",
+    },
+    {
+      title: "Quiz App",
+      image: QuizImg,
+      deployedLink: "https://stevendong2512.github.io/Quiz/",
+      githubLink: "https://github.com/StevenDong2512/Quiz",
     },
   ];
 
