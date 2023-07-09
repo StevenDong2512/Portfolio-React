@@ -1,5 +1,5 @@
 footer {
-  background-color: #f2f2f2;
+  background-color: #83bbcc;
   padding: 20px;
   text-align: center;
 }
@@ -22,6 +22,6 @@ footer ul li a {
 
 /* Style the icons */
 footer ul li a svg {
-  width: 20px;
-  height: 20px;
+  width: 2em;
+  height: 2em;
 }

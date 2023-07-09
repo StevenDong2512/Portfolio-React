@@ -1,18 +1,28 @@
 import React from "react";
 import "./Resume.css";
+import ResumePdf from "../assets/resume.pdf";
 
 function Resume() {
+  const proficiencies = [
+    "Ecommerce Analysis",
+    "Marketing Consulting",
+    "Data-driven Insights",
+    "Business Strategy",
+    "Customer Experience Enhancement",
+    "Project Execution",
+    "Market Research",
+    "Data Analytics",
+  ];
   return (
-    <section>
+    <section className="resume-section">
       <h2>Resume</h2>
-      <a href="resume.pdf" download>
+      <a href={ResumePdf} download>
         Download Resume
       </a>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        <li>Proficiency 3</li>
-        {/* Add more proficiencies */}
+        {proficiencies.map((proficiency, index) => (
+          <li key={index}>{proficiency}</li>
+        ))}
       </ul>
     </section>
   );

@@ -1,9 +1,69 @@
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+.resume-section {
+  text-align: center;
 }
 
-ul li {
+.resume-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.resume-section a {
+  display: inline-block;
   margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #83bbcc;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.resume-section a:hover {
+  background-color: #0056b3;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resume-section ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.resume-section ul li:hover {
+  color: #83bbcc;
+  transform: scale(1.1);
+}
+
+/* Animated slide-in effect */
+.resume-section ul li {
+  opacity: 70;
+  transform: translateY(5px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.resume-section ul li.animated {
+  opacity: 100;
+  transform: translateY(0);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .resume-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .resume-section a {
+    font-size: 1rem;
+  }
+
+  .resume-section ul li {
+    font-size: 1rem;
+  }
 }

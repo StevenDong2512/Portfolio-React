@@ -4,7 +4,20 @@
 }
 
 .avatar img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 250px;
+  height: 200x;
+  border-radius: 10%;
+  filter: brightness(50%);
+  transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.avatar img:hover {
+  transform: scale(1.1);
+  filter: none; /* Remove the grayscale filter on hover */
+}
+
+.content-container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 20px;
 }
