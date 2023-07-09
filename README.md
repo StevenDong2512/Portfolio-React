@@ -9,7 +9,7 @@ My portfolio contains pages including home, about, contact, portfolio and resume
 
 ## Installation
 
-[https://note-editor-pwa-sd2512-60952f5ed50b.herokuapp.com/](http://192.168.0.89:3000/Portfolio-React)
+http://192.168.0.89:3000/Portfolio-React
 
 ### React
 ### Manifest
@@ -18,8 +18,8 @@ My portfolio contains pages including home, about, contact, portfolio and resume
 
 ## Usage
 
-Users landing on homepage when they open the app. 
-![online](./screenshots/online.png)
+Home page view
+![online](./public/screenshots/Home.png)
 
 Users install the app to use offline. 
 ![offline](./screenshots/offline.png)
