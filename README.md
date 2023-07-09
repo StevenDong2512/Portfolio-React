@@ -12,9 +12,9 @@ My portfolio contains pages including home, about, contact, portfolio and resume
 [https://note-editor-pwa-sd2512-60952f5ed50b.herokuapp.com/](http://192.168.0.89:3000/Portfolio-React)
 
 ### React
-### Manifest:
-### Service Worker:
-### Webpack:
+### Manifest
+### Service Worker
+### Webpack
 
 ## Usage
 
