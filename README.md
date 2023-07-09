@@ -9,7 +9,7 @@ My portfolio contains pages including home, about, contact, portfolio and resume
 
 ## Installation
 
-https://stevendong2512.github.io/resume
+https://stevendong2512.github.io/Portfolio-React/
 
 ### React
 ### Manifest
