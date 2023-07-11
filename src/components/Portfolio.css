@@ -43,8 +43,8 @@
 
 .portfolio-card .btn-primary:hover,
 .portfolio-card .btn-secondary:hover {
-  background-color: #007bff;
-  border-color: #007bff; /* Change the hover background color */
+  background-color: #3f5b63;
+  border-color: #3f5b63; /* Change the hover background color */
 }
 
 .card-buttons {

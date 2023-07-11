@@ -6,7 +6,9 @@ import PasswordImg from "../assets/PasswordG.png";
 import PortfolioImg from "../assets/Portfolio.png";
 import RepairImg from "../assets/RepairF.png";
 import QuizImg from "../assets/Quiz.png";
-
+import NoteImg from "../assets/noteT.png";
+import WorkImg from "../assets/workS.png";
+import LogoImg from "../assets/logoG.png";
 function Portfolio() {
   const projects = [
     {
@@ -44,6 +46,25 @@ function Portfolio() {
       image: QuizImg,
       deployedLink: "https://stevendong2512.github.io/Quiz/",
       githubLink: "https://github.com/StevenDong2512/Quiz",
+    },
+    {
+      title: "Note Taker",
+      image: NoteImg,
+      deployedLink: "https://notetakersd2512.herokuapp.com/notes",
+      githubLink: "https://github.com/StevenDong2512/note_taker",
+    },
+    {
+      title: "Work Day Scheduler",
+      image: WorkImg,
+      deployedLink: "https://stevendong2512.github.io/workday-schedule/",
+      githubLink: "https://github.com/StevenDong2512/workday-schedule",
+    },
+    {
+      title: "Logo Generator",
+      image: LogoImg,
+      deployedLink:
+        "https://drive.google.com/file/d/1Wbpmt4eAk0evLLQtvsxzjz9V5mHwHuYZ/view?pli=1",
+      githubLink: "https://github.com/StevenDong2512/LogoGenerator",
     },
   ];
 

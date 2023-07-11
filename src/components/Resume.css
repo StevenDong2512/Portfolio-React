@@ -1,26 +1,27 @@
 .resume-section {
-  text-align: center;
+  text-align: left;
+  padding: 40px 0;
 }
 
 .resume-section h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
 .resume-section a {
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 10px 20px;
-  font-size: 1.2rem;
+  font-size: 1 rem;
   color: #fff;
   background-color: #83bbcc;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 2px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .resume-section a:hover {
-  background-color: #0056b3;
+  background-color: #83bbcc55;
 }
 
 .resume-section ul {
@@ -32,31 +33,92 @@
 .resume-section ul li {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  text-decoration: none;
 }
 
 .resume-section ul li:hover {
-  color: #83bbcc;
-  transform: scale(1.1);
+  color: #3f5b63;
 }
 
-/* Animated slide-in effect */
-.resume-section ul li {
-  opacity: 70;
-  transform: translateY(5px);
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+.resume-section .education {
+  margin-bottom: 40px;
+}
+
+.resume-section .education-details {
   margin-bottom: 20px;
 }
 
-.resume-section ul li.animated {
-  opacity: 100;
-  transform: translateY(0);
+.resume-section .education-details img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.resume-section .education-details p {
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: left;
+}
+.resume-section .education-details h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: left;
+}
+
+.resume-section .experience {
+  margin-bottom: 40px;
+}
+
+.resume-section .experience-entry {
+  margin-bottom: 20px;
+}
+
+.resume-section .experience-entry img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.resume-section .experience-entry .experience-details {
+  text-align: left;
+}
+
+.resume-section .experience-entry h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.resume-section .experience-entry p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.resume-section .proficiencies {
+  margin-bottom: 40px;
+}
+
+.resume-section .proficiencies h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.resume-section .proficiencies ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.resume-section .proficiencies li {
+  font-size: 1rem;
+  margin: 0 10px 10px 0;
+  padding: 5px 10px;
+  border: 1px solid #83bbcc;
+  border-radius: 5px;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
   .resume-section h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .resume-section a {
@@ -65,5 +127,27 @@
 
   .resume-section ul li {
     font-size: 1rem;
+  }
+
+  .resume-section .education-details img,
+  .resume-section .experience-entry img {
+    width: 40px;
+    margin-right: 8px;
+  }
+
+  .resume-section .education-details p,
+  .resume-section .experience-entry h4,
+  .resume-section .experience-entry p,
+  .resume-section .proficiencies h3,
+  .resume-section .proficiencies li {
+    font-size: 1rem;
+  }
+
+  .resume-section .proficiencies ul {
+    flex-direction: column;
+  }
+
+  .resume-section .proficiencies li {
+    margin-right: 0;
   }
 }
