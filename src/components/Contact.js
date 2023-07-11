@@ -28,6 +28,7 @@ function Contact() {
         <div>
           <label htmlFor="name">Name:</label>
           <input
+            className="text-input"
             type="text"
             id="name"
             value={name}
@@ -38,6 +39,7 @@ function Contact() {
         <div>
           <label htmlFor="email">Email:</label>
           <input
+            className="text-input"
             type="email"
             id="email"
             value={email}
@@ -48,6 +50,7 @@ function Contact() {
         <div>
           <label htmlFor="message">Message:</label>
           <textarea
+            className="text-input"
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}

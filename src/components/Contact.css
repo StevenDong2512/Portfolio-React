@@ -22,6 +22,10 @@ form textarea {
   border-radius: 5px;
 }
 
+.text-input {
+  border: 1px solid #83bbcc; /* Replace #000 with the desired border color */
+}
+
 form button {
   padding: 10px;
 }
@@ -41,6 +45,6 @@ form button {
 }
 
 .submit-button:hover {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #3f5b63;
+  border-color: #3f5b63;
 }
