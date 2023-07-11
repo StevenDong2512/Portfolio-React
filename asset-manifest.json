@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.d70ab70b.css",
-    "main.js": "/Portfolio-React/static/js/main.64c7aaf7.js",
+    "main.css": "/Portfolio-React/static/css/main.46d9ccf3.css",
+    "main.js": "/Portfolio-React/static/js/main.c0df6ceb.js",
     "static/media/about.png": "/Portfolio-React/static/media/about.48a8e3f12acf017be092.png",
     "static/media/CityR.png": "/Portfolio-React/static/media/CityR.8cf5d30c0983628ffbdf.png",
     "static/media/myImage.png": "/Portfolio-React/static/media/myImage.c2f0f4685954382b999c.png",
     "static/media/Portfolio.png": "/Portfolio-React/static/media/Portfolio.d07c2150e62bcc1a3a1f.png",
     "static/media/RepairF.png": "/Portfolio-React/static/media/RepairF.a4aede003376d468dff3.png",
     "static/media/WeaterF.png": "/Portfolio-React/static/media/WeaterF.115a09fc7b9d6b18fc96.png",
+    "static/media/workS.png": "/Portfolio-React/static/media/workS.96ebd5b3cfeea2e848ed.png",
     "static/media/PasswordG.png": "/Portfolio-React/static/media/PasswordG.a56b2ae20537ed14ba8c.png",
+    "static/media/noteT.png": "/Portfolio-React/static/media/noteT.abd040ec29697694d73d.png",
+    "static/media/logoG.png": "/Portfolio-React/static/media/logoG.5f2f513bf6294167380a.png",
     "static/media/Quiz.png": "/Portfolio-React/static/media/Quiz.f9e53e83ab00d877878a.png",
     "static/media/resume.pdf": "/Portfolio-React/static/media/resume.096121c97aef5ac0749d.pdf",
+    "static/media/unsw.png": "/Portfolio-React/static/media/unsw.407eb1f2523bed65dfa3.png",
+    "static/media/dm.png": "/Portfolio-React/static/media/dm.5b44d5887d17d39e3ff7.png",
+    "static/media/usyd.png": "/Portfolio-React/static/media/usyd.9a90d760e040f7322180.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.d70ab70b.css.map": "/Portfolio-React/static/css/main.d70ab70b.css.map",
-    "main.64c7aaf7.js.map": "/Portfolio-React/static/js/main.64c7aaf7.js.map"
+    "main.46d9ccf3.css.map": "/Portfolio-React/static/css/main.46d9ccf3.css.map",
+    "main.c0df6ceb.js.map": "/Portfolio-React/static/js/main.c0df6ceb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d70ab70b.css",
-    "static/js/main.64c7aaf7.js"
+    "static/css/main.46d9ccf3.css",
+    "static/js/main.c0df6ceb.js"
   ]
 }
