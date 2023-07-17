@@ -30,7 +30,7 @@ Contact page view
 Portfolio page view
 ![portfolio](./public/screenshots/Portfolio.png)
 
-Resume page view
+Resume page view (Updated UI/UX) refers to the deployed app link. 
 ![resume](./public/screenshots/Resume.png)
 
 
