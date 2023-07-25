@@ -9,8 +9,16 @@ import QuizImg from "../assets/Quiz.png";
 import NoteImg from "../assets/noteT.png";
 import WorkImg from "../assets/workS.png";
 import LogoImg from "../assets/logoG.png";
+import EcomImg from "../assets/EcomR.png";
+
 function Portfolio() {
   const projects = [
+    {
+      title: "EcomRevolve",
+      image: EcomImg,
+      deployedLink: "https://ecomrevolve-3cc9d9562799.herokuapp.com/",
+      githubLink: "https://github.com/StevenDong2512/EcomRevolve",
+    },
     {
       title: "CityReviwr",
       image: CityRImg,
