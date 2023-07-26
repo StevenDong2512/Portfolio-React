@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.46d9ccf3.css",
-    "main.js": "/Portfolio-React/static/js/main.b862bff5.js",
+    "main.js": "/Portfolio-React/static/js/main.046aa368.js",
     "static/media/about.png": "/Portfolio-React/static/media/about.48a8e3f12acf017be092.png",
     "static/media/CityR.png": "/Portfolio-React/static/media/CityR.8cf5d30c0983628ffbdf.png",
     "static/media/myImage.png": "/Portfolio-React/static/media/myImage.c2f0f4685954382b999c.png",
     "static/media/Portfolio.png": "/Portfolio-React/static/media/Portfolio.d07c2150e62bcc1a3a1f.png",
     "static/media/RepairF.png": "/Portfolio-React/static/media/RepairF.a4aede003376d468dff3.png",
     "static/media/WeaterF.png": "/Portfolio-React/static/media/WeaterF.115a09fc7b9d6b18fc96.png",
+    "static/media/EcomR.png": "/Portfolio-React/static/media/EcomR.5f2ce3aaa625afe1a8cb.png",
     "static/media/workS.png": "/Portfolio-React/static/media/workS.96ebd5b3cfeea2e848ed.png",
     "static/media/PasswordG.png": "/Portfolio-React/static/media/PasswordG.a56b2ae20537ed14ba8c.png",
     "static/media/noteT.png": "/Portfolio-React/static/media/noteT.abd040ec29697694d73d.png",
@@ -19,10 +20,10 @@
     "static/media/usyd.png": "/Portfolio-React/static/media/usyd.9a90d760e040f7322180.png",
     "index.html": "/Portfolio-React/index.html",
     "main.46d9ccf3.css.map": "/Portfolio-React/static/css/main.46d9ccf3.css.map",
-    "main.b862bff5.js.map": "/Portfolio-React/static/js/main.b862bff5.js.map"
+    "main.046aa368.js.map": "/Portfolio-React/static/js/main.046aa368.js.map"
   },
   "entrypoints": [
     "static/css/main.46d9ccf3.css",
-    "static/js/main.b862bff5.js"
+    "static/js/main.046aa368.js"
   ]
 }
